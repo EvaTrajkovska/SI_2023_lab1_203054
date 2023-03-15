@@ -1,0 +1,37 @@
+$ git log
+commit c79f1c68701ccec945e2a2d223b21f49f8562bf9 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Eva Trajkovska <eva.trajkovska203054@gmail.com>
+Date:   Wed Mar 15 22:17:21 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 682665b516a331208ea89f8f8ed9d9caf859e0d0
+Merge: f082c7f 8eff576
+Author: Eva Trajkovska <eva.trajkovska203054@gmail.com>
+Date:   Wed Mar 15 22:58:35 2023 +0100
+
+    Merge branch 'bug2' of https://github.com/EvaTrajkovska/SI_2023_lab1_203054
+
+commit 8eff576c40baa57f61d9dead064d5f175bea9cf7 (origin/bug2)
+Author: Eva Trajkovska <eva.trajkovska203054@gmail.com>
+Date:   Wed Mar 15 22:14:31 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit f082c7fa1b66a0c26dea5e9afca101eb21235fe9 (origin/bug1, bug1)
+Author: Eva Trajkovska <eva.trajkovska203054@gmail.com>
+Date:   Wed Mar 15 22:08:09 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 4c003d2049cc7689abf4e440c6f71ab93afc8338
+Author: Eva Trajkovska <eva.trajkovska203054@gmail.com>
+Date:   Wed Mar 15 17:17:58 2023 +0100
+
+    Add java class
+
+commit 87580243b6987187a8a644a2691357ad3eafcaca
+Author: Eva Trajkovska <eva.trajkovska203054@gmail.com>
+Date:   Wed Mar 15 17:09:22 2023 +0100
+
+    Initial commit

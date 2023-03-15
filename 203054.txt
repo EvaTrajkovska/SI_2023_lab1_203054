@@ -1,0 +1,30 @@
+4.  cd SI_2023_lab1_203054 – за да влезам во директориумот
+  Git init – за иницијализација на гит репозиториум
+5. git remote add origin https://github.com/EvaTrajkovska/SI_2023_lab1_203054.git - за поврзување на локалниот репозиториум со оддалечениот репозиториум
+
+6. notepad README.md – за креирање на readme.md фајлот
+    Git add README.md  – за додавање на сцената?
+    Git commit –m “Initial commit” – за commit со порака 
+7. nano SILab1.java – креирам фајл со јава код
+    Git add SILab1.java  – за додавање на сцената?
+    Git commit –m “Add java class” – за commit со порака
+8. git push origin master – синхронизација со оддалечениот репозиториум
+9. git checkout  –b bug1 – за креирање на нова гранка bug1 (на ист начин се креирани bug2 и bug3)
+10. git checkout bug1 – од гранката мастер се префрлам на гранката bug1
+11. грешката во циклусот ја поправив преку IntelliJ, потоа направив git add SILab1.java и git commit –m “Fix wrong loop for reading”
+12. git checkout bug2 – се префрлам на гранката bug2
+13. грешката во циклусот ја поправив преку IntelliJ, потоа направив git add SILab1.java и git commit –m “Fix wrong condition in filterOddNumbers”
+14. git checkout bug3 – се префрлам на гранката bug3
+15. грешката во циклусот ја поправив преку IntelliJ, потоа направив git add SILab1.java и git commit –m “Fix method sumEvenNumbers”
+16. git push origin –all
+17. git checkout master
+18. git merge bug1 – нема конфликт, споено со fast forward 
+19.Git push origin master
+20. git merge bug2 – споено со ort (слично како recursive), не беше употребен fast forward затоа што имаше конфликт со bug1
+21. git push origin master
+22. git checkout bug3
+23. git fetch
+Git rebase master
+24. git checkout master
+25. git merge bug3 – нема конфликт, со fast forward
+26. git push –f origin bug3 – употреба на force push за bug3
